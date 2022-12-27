@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.UsedMarket.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/white</item>
+        <item name="android:title">@null</item>
+    </style>
+
+    <style name="Widget.UsedMarket.Toolbar.WithArrow" parent="Widget.UsedMarket.Toolbar">
+        <item name="navigationIcon">@drawable/ic_baseline_arrow_back_ios_24</item>
+        <item name="android:background">@color/white</item>
+    </style>
+</resources>
